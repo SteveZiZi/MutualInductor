@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>keyboardDemoClass</class>
+ <widget class="QDialog" name="keyboardDemoClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>keyboardDemo</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>370</y>
+     <width>800</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_19">
+    <attribute name="title">
+     <string>通道</string>
+    </attribute>
+    <widget class="QLabel" name="label_chnl_chnl1_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>chnl1:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_chnl_chnl2_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>chnl2:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_chnl_chnl1_4">
+     <property name="geometry">
+      <rect>
+       <x>48</x>
+       <y>11</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_chnl_chnl2_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_chnl_chnl1_info_4">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>651</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rms:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_chnl_chnl2_info_4">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>651</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rms:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_20">
+    <attribute name="title">
+     <string>电源输出</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_21">
+    <attribute name="title">
+     <string>量程校准</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_range_chnl2_set_4">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>50</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置参数</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_range_chnl1_set_4">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>10</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置参数</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>15</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>k:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_range_chnl2_b_4">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>45</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_range_chnl1_b_4">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>10</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>50</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>k:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_range_chnl2_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>chnl2:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>50</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_range_chnl1_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_range_chnl2_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>50</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_range_chnl1_k_4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>10</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_range_chnl2_k_4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>45</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>15</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_range_chnl1_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>chnl1:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_22">
+    <attribute name="title">
+     <string>PWM调节</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_23">
+    <attribute name="title">
+     <string>录波</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_24">
+    <attribute name="title">
+     <string>退出</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

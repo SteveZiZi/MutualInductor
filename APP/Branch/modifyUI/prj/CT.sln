@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vKeyboard_d", "vKeyboard\vKeyboard_d.vcproj", "{B914FE56-272B-3DA8-BD71-F8A16C94A5B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CT_d", "CTTester\CT_d.vcproj", "{3CA199E0-C684-35E8-A681-87BDBDAA47E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B914FE56-272B-3DA8-BD71-F8A16C94A5B0} = {B914FE56-272B-3DA8-BD71-F8A16C94A5B0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B914FE56-272B-3DA8-BD71-F8A16C94A5B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B914FE56-272B-3DA8-BD71-F8A16C94A5B0}.Debug|Win32.Build.0 = Debug|Win32
+		{B914FE56-272B-3DA8-BD71-F8A16C94A5B0}.Release|Win32.ActiveCfg = Release|Win32
+		{B914FE56-272B-3DA8-BD71-F8A16C94A5B0}.Release|Win32.Build.0 = Release|Win32
+		{3CA199E0-C684-35E8-A681-87BDBDAA47E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CA199E0-C684-35E8-A681-87BDBDAA47E3}.Debug|Win32.Build.0 = Debug|Win32
+		{3CA199E0-C684-35E8-A681-87BDBDAA47E3}.Release|Win32.ActiveCfg = Release|Win32
+		{3CA199E0-C684-35E8-A681-87BDBDAA47E3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = 4.8.1
+	EndGlobalSection
+EndGlobal

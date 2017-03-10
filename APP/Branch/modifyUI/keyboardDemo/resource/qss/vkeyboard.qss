@@ -1,0 +1,41 @@
+QWidget:focus
+{
+	outline: none;
+}
+
+vKeyboard
+{
+	background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(74,79,80,255), stop:1 rgba(65,69,65,255));
+}
+
+
+vKeyboard QLineEdit
+{
+	border-radius:2px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+
+vKeyboard MPushButton
+{
+	color:#354346;
+	background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(245,245,245,255), stop:1 rgba(185,187,192,255));
+	border-radius:5px;
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: center;
+	padding: -2;
+	margin: 0;
+}
+vKeyboard MPushButton:focus
+{
+	color:#ececec;
+	background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(131,131,131,255), stop:1 rgba(79,82,82,255));
+}
+vKeyboard MPushButton:pressed
+{
+	color:#e6e7e2;
+	background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(68,68,68,255), stop:1 rgba(37,37,37,255));
+}
+

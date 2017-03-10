@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/images/analysis.png</file>
+        <file>resource/images/checked.png</file>
+        <file>resource/images/checked_hover.png</file>
+        <file>resource/images/CTlogo.png</file>
+        <file>resource/images/dir.png</file>
+        <file>resource/images/doc.png</file>
+        <file>resource/images/file.png</file>
+        <file>resource/images/help.png</file>
+        <file>resource/images/left.jpg</file>
+        <file>resource/images/normal.png</file>
+        <file>resource/images/normal_hover.png</file>
+        <file>resource/images/para.png</file>
+        <file>resource/images/right.jpg</file>
+        <file>resource/images/sys.png</file>
+        <file>resource/qss/uicontrol.qss</file>
+        <file>resource/images/warn.png</file>
+    </qresource>
+</RCC>

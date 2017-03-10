@@ -1,0 +1,383 @@
+QWidget
+{
+    color: rgb(160,161,161);
+}
+QWidget 
+{
+    background-color:rgb(53,59,67);
+}
+QWidget:focus
+{
+    outline: none;
+}  /*remove all  QWidget's focus border*/
+
+QPushButton
+{
+    background-color:rgb(57,71,94);
+}
+QPushButton:pressed
+{
+    color:rgb(212,213,214);
+    background-color:rgb(42,162,225);
+}
+QPushButton:checked
+{
+    color:rgb(212,213,214);
+    background-color:rgb(42,162,225);
+}
+QPushButton:!enabled
+{
+    background-color:gray;
+}
+QPushButton:selected
+{
+    color:rgb(212,213,214);
+    background-color:rgb(42,162,225);
+}
+QLineEdit
+{
+    background:rgb(47,50,57);
+    border: 1px solid rgb(47,50,57);
+    selection-background-color:blue
+}
+QPushButton:focus
+{
+    color:white;
+    margin:sold black;
+    padding:1px sold black;
+    border:1px sold black;
+    background-color:rgb(42,162,225);
+}
+QTabWidget::pane 
+{
+    border-top:0.5px solid rgb(93,98,105);
+    border-left:0px solid rgb(53,59,67);
+    border-right:0px solid rgb(53,59,67);
+    border-bottom:0.5px solid rgb(93,98,105);
+}
+QTabBar::tab 
+{
+    height: 35px; width: 100px;
+    border-right: 0.5px solid rgb(93,98,105);
+    background-color:rgb(53,59,67);
+}
+QTabBar::tab:!enabled 
+{
+    background-color:gray;
+}
+QTabBar::tab:selected
+{
+    color:black;
+    background-color:rgb(42,162,225);
+}
+QTabBar::tab:focus
+{
+    color:white;
+    background-color:rgb(42,162,225);
+}
+QScrollBar::add-page,QScrollBar::sub-page
+{
+    background-color:rgb(200,202,208);
+}
+
+/**************************************
+*  QCheckBox
+***************************************/
+QCheckBox:focus
+{
+    color:white;
+    border: 1px solid;
+    border-color:rgb(42,162,225);
+}
+QCheckBox::indicator:hover
+{
+    background-image: url(:/resource/images/normal_hover.png);
+    color:rgb(108,230,218);
+}
+QCheckBox::indicator:focus
+{
+    background-image: url(:/resource/images/normal_hover.png);
+    color:rgb(108,230,218);
+}
+QCheckBox::indicator:checked
+{
+    background-image: url(:/resource/images/checked.png);
+    color: rgb(66,182,88);
+}
+QCheckBox::indicator:checked:focus
+{
+    background-image: url(:/resource/images/checked_hover.png);
+    color: rgb(66,182,88);
+}
+QCheckBox::indicator:unchecked
+{
+    background-image: url(:/resource/images/normal.png);
+    color:rgb(108,230,218);
+}
+QCheckBox::indicator:hover:checked
+{
+    background-image: url(:/resource/images/checked_hover.png);
+    color:rgb(108,230,218);
+}
+QCheckBox::indicator:focus:unchecked
+{
+    background-image: url(:/resource/images/normal_hover.png);
+    color:rgb(108,230,218);
+}
+QCheckBox::indicator:hover:unchecked
+{
+    background-image: url(:/resource/images/normal_hover.png);
+    color:rgb(108,230,218);
+}
+/**************************************
+*  QComboBox
+***************************************/
+QComboBox
+{
+    height:18px;
+    color: rgb(160,161,161);
+    background:rgb(47,50,57);
+    selection-background-color:rgb(47,50,57);
+    border: 1px solid rgb(47,50,57)
+}
+QRadioButton:on:focus
+{
+    color: rgb(42,162,225);
+}
+QRadioButton:hover
+{
+    color:rgb(42,162,225);
+}
+QGroupBox
+{
+    border: solid rgb(69,76,83);
+    border-style:outset;
+    border-width:1px;
+    border-radius:6px;
+}
+QListView
+{
+    background-color:rgb(36,43,55);
+    color:rgb(100,110,110);
+}
+QListView::item:focus
+{
+    background-color:rgb(42,162,225);
+    color:rgb(30,40,50);
+}
+QComboBox
+{
+    background-color:rgb(47,50,57);
+    border:1px solid gray;
+    border-radius:3px;
+    padding:1px 18px 1px 3px;
+    min-width:4em;
+}
+QComboBox QAbstractItemView
+{
+    border: 2px solid darkgray;
+    background-color:rgb(47,50,57);
+    selection-background-color: rgb(47,50,57);
+}
+QComboBox:focus
+{
+    color:rgb(50,200,60);
+    border-color:rgb(42,162,225);
+}
+QComboBox QAbstractItemView::item 
+{
+    min-height: 24px;
+}
+QLineEdit:edit-focus
+{
+    background:rgb(250,0,0);
+    border-color:green;
+}
+QLineEdit
+{
+    color:rgb(220,220,220);
+    border-color:rgb(30,30,30);
+}
+QLineEdit:focus
+{
+    color:rgb(50,200,60);
+    border-color:rgb(42,162,225);
+}
+QLineEdit:selected
+{
+    color:rgb(50,200,60);
+    border-color:rgb(42,162,225);
+}
+
+/*******************************
+**  QHeaderView
+*******************************/
+QHeaderView::section 
+{
+    background-color: #188673;
+    color: white;
+    border: 0px;
+}
+
+MQTableView QTableCornerButton::section 
+{
+    background-color: #1B8576;
+    color: black;
+    border: 0px;
+ }
+ 
+MQTableView 
+{
+    selection-background-color: rgb(42,162,225);
+    selection-color:black;
+}
+
+QGroupBox {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    padding: 0 5px;
+}
+
+QLabel#statusLabel {
+    color:yellow;
+}
+/*******************************
+**  QMessageBox
+*******************************/
+QMessageBox
+{
+    color:white;
+    background-color:#3b405d;
+    font-size:15px;
+    font-weight: bold;
+    border: 2px bold black;
+}
+QMessageBox QLabel
+{
+    color:white;
+    background-color:#3b405d;
+}
+QMessageBox QPushButton#ok_messagebox
+{
+    background-color:rgb(0,70,0);
+}
+QMessageBox QPushButton#cancel_messagebox
+{
+    background-color:rgb(70,0,0);
+}
+QMessageBox QPushButton#ok_messagebox:focus,QPushButton#cancel_messagebox:focus
+{
+    color:white;
+    background-color:rgb(42,162,225);
+}
+/*******************************
+**  QDialog
+*******************************/
+QDialog
+{
+    color:white;
+    background-color:#3b405d;
+    font-size:15px;
+    font-weight: bold;
+    border: 2px bold black;
+}
+QDialog QLabel
+{
+    color:white;
+    background-color:#3b405d;
+}
+QDialog QPushButton#ok_messagebox
+{
+    background-color:rgb(0,70,0);
+}
+QDialog QPushButton#cancel_messagebox
+{
+    background-color:rgb(70,0,0);
+}
+QDialog QPushButton#ok_messagebox:focus,QPushButton#cancel_messagebox:focus
+{
+    color:white;
+    background-color:rgb(42,162,225);
+}
+/*******************************
+**  vKeyboard
+*******************************/
+vKeyboard
+{
+    background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(74,79,80,255), stop:1 rgba(65,69,65,255));
+}
+
+
+vKeyboard QLineEdit
+{
+    border-radius:2px;
+    border-color:black;
+    font-weight: bold;
+    font-size: 14pt;
+}
+vKeyboard QLineEdit:focus
+{
+    border-color:black;
+}
+
+vKeyboard MPushButton
+{
+    color:#354346;
+    background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(245,245,245,255), stop:1 rgba(185,187,192,255));
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    padding: -2;
+    margin: 0;
+}
+vKeyboard MPushButton:focus
+{
+    color:#ececec;
+    background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(94,132,138,255), stop:1 rgba(161,176,200,255));
+}
+vKeyboard MPushButton:pressed
+{
+    color:#e6e7e2;
+    background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(68,68,68,255), stop:1 rgba(37,37,37,255));
+}
+vKeyboard MPushButton#pushButton_Enter:focus,
+MPushButton#pushButton_cancel:focus,
+MPushButton#pushButton_Backspace:focus,
+MPushButton#pushButton_enPad:focus,
+MPushButton#pushButton_numPad:focus
+{
+    color:#ececec;
+    background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(94,132,138,255), stop:1 rgba(161,176,200,255));
+}
+vKeyboard MPushButton#pushButton_Enter
+{
+    color:white;
+    background-color:green;
+}
+vKeyboard MPushButton#pushButton_cancel
+{
+    color:white;
+    background-color:#f8a119;
+}
+vKeyboard MPushButton#pushButton_Backspace
+{
+    color:white;
+    background-color:red;
+}
+vKeyboard MPushButton#pushButton_Backspace:pressed
+{
+    color:#e6e7e2;
+    background-color:qlineargradient(spread:pad, x1:0.460227, y1:0, x2:0.443091, y2:0.898, stop:0 rgba(68,68,68,255), stop:1 rgba(37,37,37,255));
+}
+vKeyboard MPushButton#pushButton_enPad,MPushButton#pushButton_numPad
+{
+    color:black;
+    background-color:#a4c500;
+}
+
+
